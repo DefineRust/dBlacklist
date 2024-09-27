@@ -1,5 +1,5 @@
 All configs are found in the config file. Please do not touch any other code as it could very well break the addon.
-Type "dwhitelist" in console (in-game) to whitelist models.
+
 
 If you want something changed / want to suggest something, please head over to my Discord (https://discord.gg/5RksmEg63Z).
 
