@@ -37,6 +37,8 @@ if CLIENT then
 
 	function TOOL:RightClick( tr )
 
+		if not IsFirstTimePredicted() then return end
+
 		gPly:ConCommand( "dwhitelist" )
 	
 	end
