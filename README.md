@@ -9,3 +9,6 @@ Documentation:
         "dbl::BlacklistUpdated"
             function( model: String, added: Bool )
             added == true if it was added, false if it was removed.
+
+
+CREDITS: https://github.com/Kaiseriscool for SQL support.
