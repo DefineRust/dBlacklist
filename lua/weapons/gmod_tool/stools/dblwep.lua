@@ -35,6 +35,12 @@ if CLIENT then
 		DeployCL()
 	end)
 
+	function TOOL:RightClick( tr )
+
+		gPly:ConCommand( "dwhitelist" )
+	
+	end
+
 	function TOOL:Holster()
 
 		hook.Remove( "PreDrawEffects", "dbl::DrawWireframeBoxes" )
