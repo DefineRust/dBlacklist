@@ -2,8 +2,18 @@ dbl.config = dbl.config or {}
 
 --									Data
 
-dbl.config["DataMode"] = "file"						-- Database mode, must be "sql" or "file".
-dbl.config["DatabaseName"] = "dbl_blacklist"		-- The name to be used for SQL database or file name.
+dbl.config["DataMode"] = "sqlite"					-- Database mode, must be "sqlite", "file" or "sql".
+dbl.config["DatabaseName"] = "dbl_blacklist"		-- The name to be used for SQLlite database or file name.
+
+--									SQL
+
+dbl.config["sql"] = {
+	host = "ip",
+	username = "dbusername",
+	password = "dbpassword",
+	dbname = "dbname",
+	port = 3306
+}
 
 --									Ranks
 
