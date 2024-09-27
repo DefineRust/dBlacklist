@@ -11,4 +11,4 @@ Documentation:
             added == true if it was added, false if it was removed.
 
 
-CREDITS: https://github.com/Kaiseriscool for SQL support.
+Credits: https://github.com/Kaiseriscool for SQL support.
